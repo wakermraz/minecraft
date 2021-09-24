@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/css/admin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<header>
+	<div class="header-left">
+		<img src="/img/admin/logo.svg">
+		<div class="search">
+			<img src="/img/admin/search-icon.svg">
+			<input type="text" placeholder="Поиск">
+		</div>
+	</div>
+	<div class="header-right">
+		<img src="/img/admin/theme-change-icon.svg">
+		<div class="language-change">
+			<p>RU</p>
+			<img src="/img/admin/header-language.svg">
+		</div>
+		<div class="user-info">
+			<div class="avatar">
+				<p>S</p>
+			</div>
+			<p>ShepardS</p>
+		</div>
+	</div>
+</header>
+<body>
+	<div class="wrapper">
+		<div class="left-sidebar">
+			<div class="left-sidebar-top">
+				<div class="sidebar-list-item isActiveAdmin">
+					<img src="/img/admin/home-icon.svg">
+					<p>Главная</p>
+				</div>
+				<div class="sidebar-list-item">
+					<img src="/img/admin/administration-icon.svg">
+					<p>Администрация проекта</p>
+				</div>
+				<div class="sidebar-list-item">
+					<img src="/img/admin/categories-icon.svg">
+					<p>Категории</p>
+				</div>
+				<div class="sidebar-list-item">
+					<img src="/img/admin/versions-icon.svg">
+					<p>Поддерживаемые версии</p>
+				</div>
+				<div class="sidebar-list-item">
+					<img src="/img/admin/users-icon.svg">
+					<p>Пользователи</p>
+				</div>
+				<div class="sidebar-list-item">
+					<img src="/img/admin/teams-icon.svg">
+					<p>Команды пользователей</p>
+				</div>
+				<div class="sidebar-list-item">
+					<img src="/img/admin/reports-icon.svg">
+					<p>Жалобы</p>
+				</div>
+			</div>
+			<div class="left-sidebar-bot">
+				<div class="sidebar-list-item">
+					<img src="/img/admin/show-site-icon.svg">
+					<p>Посмотреть сайт</p>
+				</div>
+			</div>
+		</div>
+		<div class="main-content">
+			<div class="main-content-label">
+				<p>Главная</p>
+				<div class="new-post">
+					<p>Новый пост</p>
+				</div>
+			</div>
+			<div class="main-content-nav">
+				<div class="main-content-search">
+					<img src="/img/admin/search-icon.svg">
+					<input type="text" placeholder="Поиск">
+				</div>
+				<div class="select">
+					<p>Основные категории</p>
+					<img src="/img/admin/header-language.svg">
+				</div>
+				<div class="select">
+					<p>Новые</p>
+					<img src="/img/admin/header-language.svg">
+				</div>
+				<div class="select">
+					<p>Опубликованные</p>
+					<img src="/img/admin/header-language.svg">
+				</div>
+			</div>
+			<div class="materials-table">
+				<div class="table-label">
+					<p class="label">заголовок</p>
+					<p class="auth">автор</p>
+					<p class="language">язык материала</p>
+					<p class="translation">перевод</p>
+					<p class="status">статус</p>
+				</div>
+				<div class="table-body">
+					<div class="table-body-item">
+						<p class="label">Новые способы заработка</p>
+						<div class="author auth">
+							<img src="/img/admin/user-icon.svg">
+							<p>Марат Ибрагимов</p>
+						</div>
+						<p class="language">Русский</p>
+						<div class="body-item-language translation">
+							<p>Английский</p>
+							<img src="/img/admin/ext-link-icon.svg">
+						</div>
+						<div class="body-item-status status approved">
+							<p>Опубликован</p>
+							<img src="/img/admin/ext-link-approved-icon.svg">
+						</div>
+					</div>
+					<div class="table-body-item">
+						<p class="label">На подходе новые события, сегодня мы расска...</p>
+						<div class="author auth">
+							<img src="/img/admin/user-icon.svg">
+							<p>Марат Ибрагимов</p>
+						</div>
+						<p class="language">Русский</p>
+						<div class="body-item-language translation">
+							<p>Русский</p>
+							<img src="/img/admin/ext-link-icon.svg">
+						</div>
+						<div class="body-item-status status depublished">
+							<p>Распубликован</p>
+						</div>
+					</div>
+					<div class="table-body-item">
+						<p class="label">Notch выпустил первое крупное обновление</p>
+						<div class="author auth">
+							<img src="/img/admin/user-icon.svg">
+							<p>Марат Ибрагимов</p>
+						</div>
+						<p class="language">Русский</p>
+						<div class="body-item-language translation">
+							<p>Русский</p>
+							<img src="/img/admin/ext-link-icon.svg">
+						</div>
+						<div class="body-item-status status approving">
+							<p>На модерации</p>
+							<img src="/img/admin/ext-link-approving-icon.svg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
